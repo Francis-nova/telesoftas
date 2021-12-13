@@ -1,0 +1,59 @@
+.container {
+  background-color: white;
+  border: 1px solid #ccc;
+  height: 500px;
+  width: 50%;
+  margin-top: 40px;
+  top: 50%;
+  margin-left: 300px;
+  overflow: scroll;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.search {
+  padding: 15px 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.empty-list {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.user-list {
+  overflow: scroll;
+  height: 300px;
+  margin-bottom: 80px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.post-item {
+  padding: 10px;
+  margin: 10px 0px 15px 0px;
+}
+
+.post-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post-body {
+  font-size: 10px;
+}
